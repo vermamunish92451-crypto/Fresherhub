@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FresherHub - Learn Data Science from Scratch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- NAVIGATION -->
 <nav class="navbar">
-    <div class="nav-brand">FresherHub</div>
+    <div class="nav-brand">
+        <span class="brand-icon">FH</span>
+        FresherHub
+    </div>
     <ul class="nav-links">
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#python">Python</a></li>
@@ -19,47 +23,162 @@
         <li><a href="#powerbi">Power BI</a></li>
         <li><a href="#ml">ML</a></li>
     </ul>
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
 </nav>
 
-<!-- HERO SECTION -->
+<!-- ==================== HERO SECTION ==================== -->
 <section id="home" class="hero">
-    <h1>Learn Data Science from Scratch</h1>
-    <p>Simple, beginner-friendly notes for Python, SQL, Power BI, and Machine Learning</p>
-    <div class="hero-cards">
-        <a href="#python" class="hero-card">
-            <h3>🐍 Python</h3>
-            <p>Variables, Loops, Functions, OOP</p>
-        </a>
-        <a href="#libraries" class="hero-card">
-            <h3>📚 Libraries</h3>
-            <p>Pandas, NumPy, Matplotlib, Seaborn</p>
-        </a>
-        <a href="#sql" class="hero-card">
-            <h3>🗄️ SQL</h3>
-            <p>Queries, Joins, Subqueries</p>
-        </a>
-        <a href="#powerbi" class="hero-card">
-            <h3>📊 Power BI</h3>
-            <p>Dashboards, DAX, Visuals</p>
-        </a>
-        <a href="#ml" class="hero-card">
-            <h3>🤖 Machine Learning</h3>
-            <p>Regression, Classification, Clustering</p>
-        </a>
+    <div class="hero-bg">
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+        <div class="floating-shape shape4"></div>
+        <div class="floating-shape shape5"></div>
+        <div class="floating-shape shape6"></div>
+    </div>
+
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="fas fa-rocket"></i> Built for Freshers, by a Fresher
+        </div>
+        <h1>Master Data Science<br><span class="gradient-text">From Zero to Hero</span></h1>
+        <p class="hero-desc">Simple, beginner-friendly notes covering Python, SQL, Power BI, and Machine Learning — with real code examples you can practice today.</p>
+
+        <div class="hero-stats">
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Topics</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Code Examples</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Free</div>
+                <div class="stat-label">Forever</div>
+            </div>
+        </div>
+
+        <div class="hero-buttons">
+            <a href="#python" class="btn btn-primary">
+                <i class="fas fa-play"></i> Start Learning
+            </a>
+            <a href="https://github.com/munishverma" target="_blank" class="btn btn-outline">
+                <i class="fab fa-github"></i> View Source
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-cards-3d">
+        <div class="card-3d" style="--delay: 0s;">
+            <div class="card-3d-icon">🐍</div>
+            <h3>Python</h3>
+            <p>Basics to OOP</p>
+        </div>
+        <div class="card-3d" style="--delay: 0.1s;">
+            <div class="card-3d-icon">📊</div>
+            <h3>Pandas</h3>
+            <p>Data Manipulation</p>
+        </div>
+        <div class="card-3d" style="--delay: 0.2s;">
+            <div class="card-3d-icon">🗄️</div>
+            <h3>SQL</h3>
+            <p>Queries & Joins</p>
+        </div>
+        <div class="card-3d" style="--delay: 0.3s;">
+            <div class="card-3d-icon">📈</div>
+            <h3>Power BI</h3>
+            <p>Dashboards & DAX</p>
+        </div>
+        <div class="card-3d" style="--delay: 0.4s;">
+            <div class="card-3d-icon">🤖</div>
+            <h3>ML</h3>
+            <p>Algorithms</p>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== FEATURES SECTION ==================== -->
+<section class="features-section">
+    <h2 class="section-title">Why FresherHub?</h2>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-code"></i></div>
+            <h3>Real Code Examples</h3>
+            <p>Every concept has working code you can copy and run instantly.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-brain"></i></div>
+            <h3>Beginner Friendly</h3>
+            <p>Simple explanations — no jargon, no confusion. Just clear learning.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-copy"></i></div>
+            <h3>One-Click Copy</h3>
+            <p>Click the copy button on any code block to use it immediately.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Mobile Friendly</h3>
+            <p>Study anywhere — works perfectly on phone, tablet, and desktop.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== ROADMAP SECTION ==================== -->
+<section class="roadmap-section">
+    <h2 class="section-title">Learning Roadmap</h2>
+    <div class="roadmap">
+        <div class="roadmap-item">
+            <div class="roadmap-number">1</div>
+            <div class="roadmap-content">
+                <h3>Python Basics</h3>
+                <p>Variables, Loops, Functions, OOP — build your foundation</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap-number">2</div>
+            <div class="roadmap-content">
+                <h3>Python Libraries</h3>
+                <p>Pandas, NumPy, Matplotlib, Seaborn — data tools</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap-number">3</div>
+            <div class="roadmap-content">
+                <h3>SQL</h3>
+                <p>Queries, Joins, Subqueries — database skills</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap-number">4</div>
+            <div class="roadmap-content">
+                <h3>Power BI</h3>
+                <p>Dashboards, DAX, Visuals — business intelligence</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap-number">5</div>
+            <div class="roadmap-content">
+                <h3>Machine Learning</h3>
+                <p>Regression, Classification, Clustering — AI basics</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <!-- ==================== PYTHON SECTION ==================== -->
 <section id="python" class="content-section">
-    <h2>🐍 Python Basics</h2>
+    <h2><span class="section-icon">🐍</span> Python Basics</h2>
 
     <div class="topic">
         <h3>1. Variables & Data Types</h3>
-        <p><strong>What?</strong> Variables are containers to store data. Python automatically detects the data type.</p>
+        <p><strong>What?</strong> Variables are containers to store data. Python automatically detects the data type — no need to declare it manually.</p>
         <div class="code-block">
-<pre>
-# Variable creation (no need to declare type)
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Variable creation (no need to declare type)
 name = "Munish"          # str (string)
 age = 22                 # int (integer)
 height = 5.9             # float (decimal)
@@ -67,17 +186,17 @@ is_student = True        # bool (boolean)
 
 # Check type
 print(type(name))        # &lt;class 'str'&gt;
-</pre>
+print(type(age))         # &lt;class 'int'&gt;</code></pre>
         </div>
-        <p><strong>Key Point:</strong> Python is dynamically typed — you don't need to write <code>int x = 10</code> like C/Java.</p>
+        <p><strong>Key Point:</strong> Python is dynamically typed — you don't need to write <code>int x = 10</code> like in C or Java.</p>
     </div>
 
     <div class="topic">
         <h3>2. Strings</h3>
         <p><strong>What?</strong> Strings are sequences of characters used to handle text data.</p>
         <div class="code-block">
-<pre>
-text = "Hello World"
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>text = "Hello World"
 
 # String operations
 print(text.upper())      # HELLO WORLD
@@ -87,7 +206,7 @@ print(text.replace("Hello", "Hi"))  # Hi World
 
 # String slicing
 print(text[0:5])         # Hello (index 0 to 4)
-</pre>
+print(len(text))         # 11 (total characters)</code></pre>
         </div>
     </div>
 
@@ -95,27 +214,26 @@ print(text[0:5])         # Hello (index 0 to 4)
         <h3>3. Lists</h3>
         <p><strong>What?</strong> Lists are ordered, mutable collections. You can add, remove, and change items.</p>
         <div class="code-block">
-<pre>
-fruits = ["apple", "banana", "cherry"]
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>fruits = ["apple", "banana", "cherry"]
 
 fruits.append("mango")       # Add at end
 fruits.remove("banana")      # Remove specific item
 print(fruits[0])             # apple (access by index)
 print(len(fruits))           # 3 (length)
 
-# List comprehension
+# List comprehension (powerful!)
 numbers = [1, 2, 3, 4, 5]
-squares = [x**2 for x in numbers]  # [1, 4, 9, 16, 25]
-</pre>
+squares = [x**2 for x in numbers]  # [1, 4, 9, 16, 25]</code></pre>
         </div>
     </div>
 
     <div class="topic">
         <h3>4. Dictionaries</h3>
-        <p><strong>What?</strong> Dictionaries store data in key-value pairs. Like a real dictionary — word (key) → meaning (value).</p>
+        <p><strong>What?</strong> Dictionaries store data in key-value pairs. Like a real dictionary — word (key) gives you meaning (value).</p>
         <div class="code-block">
-<pre>
-student = {
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>student = {
     "name": "Munish",
     "age": 22,
     "course": "Data Science"
@@ -127,8 +245,7 @@ student["college"] = "SBSU"   # Add new key
 
 # Loop through dictionary
 for key, value in student.items():
-    print(f"{key}: {value}")
-</pre>
+    print(f"{key}: {value}")</code></pre>
         </div>
     </div>
 
@@ -136,8 +253,8 @@ for key, value in student.items():
         <h3>5. Conditions (if-else)</h3>
         <p><strong>What?</strong> Conditions let your program make decisions based on True/False.</p>
         <div class="code-block">
-<pre>
-marks = 85
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>marks = 85
 
 if marks >= 90:
     grade = "A+"
@@ -148,8 +265,7 @@ elif marks >= 70:
 else:
     grade = "C"
 
-print(f"Your grade: {grade}")  # Your grade: A
-</pre>
+print(f"Your grade: {grade}")  # Your grade: A</code></pre>
         </div>
     </div>
 
@@ -157,8 +273,8 @@ print(f"Your grade: {grade}")  # Your grade: A
         <h3>6. Loops</h3>
         <p><strong>What?</strong> Loops repeat a block of code multiple times.</p>
         <div class="code-block">
-<pre>
-# For loop — runs for each item
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># For loop — runs for each item
 for i in range(5):
     print(i)            # 0, 1, 2, 3, 4
 
@@ -167,7 +283,10 @@ count = 0
 while count < 3:
     print(count)
     count += 1          # 0, 1, 2
-</pre>
+
+# Loop through list
+for fruit in ["apple", "banana", "cherry"]:
+    print(fruit)</code></pre>
         </div>
     </div>
 
@@ -175,8 +294,8 @@ while count < 3:
         <h3>7. Functions</h3>
         <p><strong>What?</strong> Functions are reusable blocks of code. Write once, use many times.</p>
         <div class="code-block">
-<pre>
-# Simple function
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Simple function
 def greet(name):
     return f"Hello, {name}!"
 
@@ -187,7 +306,12 @@ def greet(name="Guest"):
     return f"Hello, {name}!"
 
 print(greet())             # Hello, Guest!
-</pre>
+
+# Function with multiple return values
+def get_info():
+    return "Munish", 22
+
+name, age = get_info()</code></pre>
         </div>
     </div>
 
@@ -195,8 +319,8 @@ print(greet())             # Hello, Guest!
         <h3>8. File Handling</h3>
         <p><strong>What?</strong> Reading and writing files using Python.</p>
         <div class="code-block">
-<pre>
-# Write to file
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Write to file
 with open("data.txt", "w") as f:
     f.write("Hello World")
 
@@ -204,17 +328,21 @@ with open("data.txt", "w") as f:
 with open("data.txt", "r") as f:
     content = f.read()
     print(content)
-</pre>
+
+# Read line by line
+with open("data.txt", "r") as f:
+    for line in f:
+        print(line.strip())</code></pre>
         </div>
-        <p><strong>Key Point:</strong> <code>with</code> keyword automatically closes the file after use.</p>
+        <p><strong>Key Point:</strong> <code>with</code> keyword automatically closes the file after use. Always use it.</p>
     </div>
 
     <div class="topic">
         <h3>9. OOP (Object-Oriented Programming)</h3>
         <p><strong>What?</strong> OOP lets you create reusable blueprints (classes) to build objects.</p>
         <div class="code-block">
-<pre>
-class Student:
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>class Student:
     def __init__(self, name, marks):    # Constructor
         self.name = name
         self.marks = marks
@@ -222,42 +350,82 @@ class Student:
     def display(self):                   # Method
         print(f"{self.name} scored {self.marks}")
 
+    def is_passed(self):                 # Custom method
+        return self.marks >= 50
+
 # Create object
 s1 = Student("Munish", 91)
 s1.display()    # Munish scored 91
-</pre>
+print(s1.is_passed())  # True</code></pre>
         </div>
-        <p><strong>Key Point:</strong> <code>self</code> refers to the current object. <code>__init__</code> is the constructor that runs automatically.</p>
     </div>
 
     <div class="topic">
         <h3>10. Exception Handling</h3>
         <p><strong>What?</strong> Handling errors gracefully so your program doesn't crash.</p>
         <div class="code-block">
-<pre>
-try:
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>try:
     result = 10 / 0
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 except Exception as e:
     print(f"Error: {e}")
 finally:
-    print("This always runs")
-</pre>
+    print("This always runs")</code></pre>
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>11. List Comprehension (Advanced)</h3>
+        <p><strong>What?</strong> A short way to create lists using a single line.</p>
+        <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Normal way
+squares = []
+for x in range(5):
+    squares.append(x**2)
+
+# Comprehension way (same result, one line!)
+squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
+
+# With condition
+even_squares = [x**2 for x in range(10) if x % 2 == 0]
+# [0, 4, 16, 36, 64]</code></pre>
+        </div>
+    </div>
+
+    <div class="topic">
+        <h3>12. Lambda Functions</h3>
+        <p><strong>What?</strong> Short, one-line functions without a name.</p>
+        <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Normal function
+def add(a, b):
+    return a + b
+
+# Lambda (same thing, one line)
+add = lambda a, b: a + b
+print(add(3, 5))  # 8
+
+# Used with map, filter
+numbers = [1, 2, 3, 4, 5]
+doubled = list(map(lambda x: x*2, numbers))  # [2, 4, 6, 8, 10]
+evens = list(filter(lambda x: x%2==0, numbers))  # [2, 4]</code></pre>
         </div>
     </div>
 </section>
 
 <!-- ==================== PYTHON LIBRARIES SECTION ==================== -->
 <section id="libraries" class="content-section">
-    <h2>📚 Python Libraries for Data Science</h2>
+    <h2><span class="section-icon">📚</span> Python Libraries for Data Science</h2>
 
     <div class="topic">
         <h3>1. NumPy — Numerical Computing</h3>
         <p><strong>What?</strong> NumPy provides fast arrays and mathematical operations. It's the foundation of all data science libraries.</p>
         <div class="code-block">
-<pre>
-import numpy as np
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>import numpy as np
 
 # Create array
 arr = np.array([1, 2, 3, 4, 5])
@@ -266,11 +434,16 @@ arr = np.array([1, 2, 3, 4, 5])
 print(arr * 2)          # [2, 4, 6, 8, 10]
 print(arr.mean())       # 3.0 (average)
 print(arr.sum())        # 15
+print(arr.max())        # 5
+print(arr.min())        # 1
 
 # 2D array (matrix)
 matrix = np.array([[1, 2], [3, 4]])
 print(matrix.shape)     # (2, 2) — 2 rows, 2 columns
-</pre>
+
+# Random numbers
+random_arr = np.random.rand(5)  # 5 random numbers
+print(random_arr)</code></pre>
         </div>
         <p><strong>Why use?</strong> 10x faster than Python lists for mathematical operations.</p>
     </div>
@@ -279,8 +452,8 @@ print(matrix.shape)     # (2, 2) — 2 rows, 2 columns
         <h3>2. Pandas — Data Manipulation</h3>
         <p><strong>What?</strong> Pandas is used to handle tabular data (like Excel sheets in Python). It has two main structures: Series (1D) and DataFrame (2D).</p>
         <div class="code-block">
-<pre>
-import pandas as pd
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>import pandas as pd
 
 # Create DataFrame from dictionary
 data = {
@@ -300,16 +473,15 @@ print(df)
 print(df.head())         # First 5 rows
 print(df.describe())     # Statistics (mean, min, max, etc.)
 print(df["Name"])        # Select column
-print(df[df["Marks"] > 85])  # Filter rows
-</pre>
+print(df[df["Marks"] > 85])  # Filter rows</code></pre>
         </div>
     </div>
 
     <div class="topic">
         <h3>3. Pandas — Reading Files</h3>
         <div class="code-block">
-<pre>
-# Read CSV file
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Read CSV file
 df = pd.read_csv("data.csv")
 
 # Read Excel file
@@ -322,15 +494,17 @@ df = pd.read_sql("SELECT * FROM students", conn)
 
 # Save to CSV
 df.to_csv("output.csv", index=False)
-</pre>
+
+# Save to Excel
+df.to_excel("output.xlsx", index=False)</code></pre>
         </div>
     </div>
 
     <div class="topic">
         <h3>4. Pandas — Data Cleaning</h3>
         <div class="code-block">
-<pre>
-# Check missing values
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Check missing values
 print(df.isnull().sum())
 
 # Fill missing values
@@ -344,7 +518,9 @@ df.drop_duplicates(inplace=True)
 
 # Rename columns
 df.rename(columns={"Name": "Student_Name"}, inplace=True)
-</pre>
+
+# Change data type
+df["Age"] = df["Age"].astype(int)</code></pre>
         </div>
     </div>
 
@@ -352,8 +528,8 @@ df.rename(columns={"Name": "Student_Name"}, inplace=True)
         <h3>5. Matplotlib — Basic Plotting</h3>
         <p><strong>What?</strong> Matplotlib is used to create charts and graphs for data visualization.</p>
         <div class="code-block">
-<pre>
-import matplotlib.pyplot as plt
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>import matplotlib.pyplot as plt
 
 # Line chart
 x = [1, 2, 3, 4, 5]
@@ -373,7 +549,11 @@ plt.show()
 plt.scatter(x, y)
 plt.title("Scatter Plot")
 plt.show()
-</pre>
+
+# Histogram
+plt.hist([1, 1, 2, 3, 3, 3, 4, 5])
+plt.title("Distribution")
+plt.show()</code></pre>
         </div>
     </div>
 
@@ -381,8 +561,8 @@ plt.show()
         <h3>6. Seaborn — Statistical Visualization</h3>
         <p><strong>What?</strong> Seaborn makes beautiful statistical charts with less code. Built on top of Matplotlib.</p>
         <div class="code-block">
-<pre>
-import seaborn as sns
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>import seaborn as sns
 
 # Load sample dataset
 tips = sns.load_dataset("tips")
@@ -398,7 +578,10 @@ plt.show()
 # Heatmap (correlation matrix)
 sns.heatmap(tips.corr(), annot=True, cmap="coolwarm")
 plt.show()
-</pre>
+
+# Count plot
+sns.countplot(x="day", data=tips)
+plt.show()</code></pre>
         </div>
         <p><strong>Key Point:</strong> Use Seaborn when you want quick, beautiful statistical plots.</p>
     </div>
@@ -406,14 +589,14 @@ plt.show()
 
 <!-- ==================== SQL SECTION ==================== -->
 <section id="sql" class="content-section">
-    <h2>🗄️ SQL (Structured Query Language)</h2>
+    <h2><span class="section-icon">🗄️</span> SQL (Structured Query Language)</h2>
 
     <div class="topic">
         <h3>1. What is SQL?</h3>
         <p><strong>SQL</strong> is a language used to communicate with databases. You can create, read, update, and delete data (CRUD operations).</p>
         <div class="code-block">
-<pre>
--- Create a table
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- Create a table
 CREATE TABLE students (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -427,16 +610,15 @@ INSERT INTO students VALUES (2, 'Rahul', 23, 85);
 INSERT INTO students VALUES (3, 'Priya', 21, 88);
 
 -- Read data
-SELECT * FROM students;
-</pre>
+SELECT * FROM students;</code></pre>
         </div>
     </div>
 
     <div class="topic">
         <h3>2. WHERE Clause (Filtering)</h3>
         <div class="code-block">
-<pre>
--- Students with marks > 85
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- Students with marks > 85
 SELECT * FROM students WHERE marks > 85;
 
 -- Students with age = 22
@@ -447,20 +629,27 @@ SELECT * FROM students WHERE marks > 80 AND age < 23;
 
 -- Pattern matching
 SELECT * FROM students WHERE name LIKE 'M%';  -- Names starting with M
-</pre>
+
+-- BETWEEN
+SELECT * FROM students WHERE marks BETWEEN 85 AND 95;
+
+-- IN
+SELECT * FROM students WHERE name IN ('Munish', 'Rahul');</code></pre>
         </div>
     </div>
 
     <div class="topic">
         <h3>3. ORDER BY (Sorting)</h3>
         <div class="code-block">
-<pre>
--- Sort by marks (highest first)
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- Sort by marks (highest first)
 SELECT * FROM students ORDER BY marks DESC;
 
 -- Sort by name (alphabetical)
 SELECT * FROM students ORDER BY name ASC;
-</pre>
+
+-- Sort by multiple columns
+SELECT * FROM students ORDER BY age ASC, marks DESC;</code></pre>
         </div>
     </div>
 
@@ -468,8 +657,8 @@ SELECT * FROM students ORDER BY name ASC;
         <h3>4. Aggregate Functions</h3>
         <p><strong>What?</strong> Functions that perform calculations on multiple rows and return a single value.</p>
         <div class="code-block">
-<pre>
-SELECT COUNT(*) FROM students;          -- 3 (total rows)
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>SELECT COUNT(*) FROM students;          -- 3 (total rows)
 SELECT AVG(marks) FROM students;        -- 88.0 (average)
 SELECT MAX(marks) FROM students;        -- 91 (highest)
 SELECT MIN(marks) FROM students;        -- 85 (lowest)
@@ -477,7 +666,12 @@ SELECT SUM(marks) FROM students;        -- 264 (total)
 
 -- Group by
 SELECT age, AVG(marks) FROM students GROUP BY age;
-</pre>
+
+-- HAVING (filter after group by)
+SELECT age, AVG(marks) as avg_marks
+FROM students
+GROUP BY age
+HAVING AVG(marks) > 85;</code></pre>
         </div>
     </div>
 
@@ -485,17 +679,8 @@ SELECT age, AVG(marks) FROM students GROUP BY age;
         <h3>5. JOINs (Combining Tables)</h3>
         <p><strong>What?</strong> JOINs combine rows from two or more tables based on a related column.</p>
         <div class="code-block">
-<pre>
--- Create second table
-CREATE TABLE courses (
-    student_id INT,
-    course_name VARCHAR(50)
-);
-
-INSERT INTO courses VALUES (1, 'Data Science');
-INSERT INTO courses VALUES (2, 'Web Development');
-
--- INNER JOIN (only matching rows)
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- INNER JOIN (only matching rows)
 SELECT s.name, c.course_name
 FROM students s
 INNER JOIN courses c ON s.id = c.student_id;
@@ -504,7 +689,16 @@ INNER JOIN courses c ON s.id = c.student_id;
 SELECT s.name, c.course_name
 FROM students s
 LEFT JOIN courses c ON s.id = c.student_id;
-</pre>
+
+-- RIGHT JOIN (all from right + matching from left)
+SELECT s.name, c.course_name
+FROM students s
+RIGHT JOIN courses c ON s.id = c.student_id;
+
+-- FULL JOIN (all from both)
+SELECT s.name, c.course_name
+FROM students s
+FULL JOIN courses c ON s.id = c.student_id;</code></pre>
         </div>
         <p><strong>Key Point:</strong> INNER JOIN = intersection. LEFT JOIN = all from left table.</p>
     </div>
@@ -513,31 +707,41 @@ LEFT JOIN courses c ON s.id = c.student_id;
         <h3>6. Subqueries</h3>
         <p><strong>What?</strong> A query inside another query.</p>
         <div class="code-block">
-<pre>
--- Students with above-average marks
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- Students with above-average marks
 SELECT * FROM students
 WHERE marks > (SELECT AVG(marks) FROM students);
-</pre>
+
+-- Students in same course as Rahul
+SELECT * FROM students
+WHERE course_id IN (
+    SELECT course_id FROM courses WHERE student_name = 'Rahul'
+);</code></pre>
         </div>
     </div>
 
     <div class="topic">
         <h3>7. UPDATE & DELETE</h3>
         <div class="code-block">
-<pre>
--- Update marks
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- Update marks
 UPDATE students SET marks = 95 WHERE name = 'Munish';
+
+-- Update multiple columns
+UPDATE students SET marks = 95, age = 23 WHERE id = 1;
 
 -- Delete a row
 DELETE FROM students WHERE id = 3;
-</pre>
+
+-- Delete all rows (but keep table structure)
+DELETE FROM students;</code></pre>
         </div>
     </div>
 </section>
 
 <!-- ==================== POWER BI SECTION ==================== -->
 <section id="powerbi" class="content-section">
-    <h2>📊 Power BI</h2>
+    <h2><span class="section-icon">📊</span> Power BI</h2>
 
     <div class="topic">
         <h3>1. What is Power BI?</h3>
@@ -572,6 +776,8 @@ DELETE FROM students WHERE id = 3;
             <li><strong>Replace Values</strong> — Right-click → Replace Values</li>
             <li><strong>Split Column</strong> — Split by delimiter (comma, space, etc.)</li>
             <li><strong>Add Custom Column</strong> — Add Column → Custom Column</li>
+            <li><strong>Merge Tables</strong> — Combine two tables (like JOIN in SQL)</li>
+            <li><strong>Append Queries</strong> — Stack tables vertically</li>
         </ul>
     </div>
 
@@ -579,8 +785,8 @@ DELETE FROM students WHERE id = 3;
         <h3>4. DAX (Data Analysis Expressions)</h3>
         <p><strong>What?</strong> DAX is Power BI's formula language for creating custom calculations.</p>
         <div class="code-block">
-<pre>
--- Total Sales
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>-- Total Sales
 Total Sales = SUM(Sales[Amount])
 
 -- Profit Margin
@@ -596,8 +802,7 @@ Running Total = CALCULATE(
 YoY Growth = 
 VAR CurrentYear = SUM(Sales[Amount])
 VAR LastYear = CALCULATE(SUM(Sales[Amount]), SAMEPERIODLASTYEAR(Sales[Date]))
-RETURN DIVIDE(CurrentYear - LastYear, LastYear, 0) * 100
-</pre>
+RETURN DIVIDE(CurrentYear - LastYear, LastYear, 0) * 100</code></pre>
         </div>
     </div>
 
@@ -612,6 +817,8 @@ RETURN DIVIDE(CurrentYear - LastYear, LastYear, 0) * 100
             <li><strong>Card</strong> — Single KPI value (total sales, count)</li>
             <li><strong>Table/Matrix</strong> — Detailed data display</li>
             <li><strong>Slicer</strong> — Interactive filter</li>
+            <li><strong>Donut Chart</strong> — Like pie chart, but with hole</li>
+            <li><strong>Stacked Bar</strong> — Compare with sub-categories</li>
         </ul>
     </div>
 
@@ -624,13 +831,15 @@ RETURN DIVIDE(CurrentYear - LastYear, LastYear, 0) * 100
             <li>Start with KPIs at top (cards)</li>
             <li>Use tooltips for additional context</li>
             <li>Test with different screen sizes</li>
+            <li>Use bookmarks for drill-through pages</li>
+            <li>Add a title and page numbers</li>
         </ul>
     </div>
 </section>
 
 <!-- ==================== MACHINE LEARNING SECTION ==================== -->
 <section id="ml" class="content-section">
-    <h2>🤖 Machine Learning</h2>
+    <h2><span class="section-icon">🤖</span> Machine Learning</h2>
 
     <div class="topic">
         <h3>1. What is Machine Learning?</h3>
@@ -638,7 +847,7 @@ RETURN DIVIDE(CurrentYear - LastYear, LastYear, 0) * 100
         <p><strong>Types of ML:</strong></p>
         <ul>
             <li><strong>Supervised Learning</strong> — Labeled data (input + correct answer)</li>
-            <li><strong>Unsupervised Learning</strong> — No labels (find patterns)</li>
+            <li><strong>Unsupervised Learning</strong> — No labels (find hidden patterns)</li>
             <li><strong>Reinforcement Learning</strong> — Learn by reward/punishment</li>
         </ul>
     </div>
@@ -647,8 +856,8 @@ RETURN DIVIDE(CurrentYear - LastYear, LastYear, 0) * 100
         <h3>2. Supervised Learning — Regression</h3>
         <p><strong>What?</strong> Predicting a continuous number (e.g., price, salary, temperature).</p>
         <div class="code-block">
-<pre>
-from sklearn.model_selection import train_test_split
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 import pandas as pd
@@ -673,8 +882,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 # Evaluate
-print(r2_score(y_test, y_pred))  # e.g., 0.85 (85% accuracy)
-</pre>
+print(r2_score(y_test, y_pred))  # e.g., 0.85 (85% accuracy)</code></pre>
         </div>
         <p><strong>Key Algorithms:</strong> Linear Regression, Decision Tree Regressor, Random Forest Regressor</p>
     </div>
@@ -683,8 +891,8 @@ print(r2_score(y_test, y_pred))  # e.g., 0.85 (85% accuracy)
         <h3>3. Supervised Learning — Classification</h3>
         <p><strong>What?</strong> Predicting a category/class (e.g., spam/not spam, disease/no disease).</p>
         <div class="code-block">
-<pre>
-from sklearn.ensemble import RandomForestClassifier
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load data
@@ -708,8 +916,7 @@ y_pred = model.predict(X_test)
 
 # Evaluate
 print(accuracy_score(y_test, y_pred))
-print(classification_report(y_test, y_pred))
-</pre>
+print(classification_report(y_test, y_pred))</code></pre>
         </div>
         <p><strong>Key Algorithms:</strong> Logistic Regression, Decision Tree, Random Forest, SVM, KNN</p>
     </div>
@@ -718,8 +925,8 @@ print(classification_report(y_test, y_pred))
         <h3>4. Unsupervised Learning — Clustering</h3>
         <p><strong>What?</strong> Grouping similar data points together without labels.</p>
         <div class="code-block">
-<pre>
-from sklearn.cluster import KMeans
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Sample data
@@ -736,8 +943,7 @@ print(labels)  # [0, 0, 0, 1, 1, 1]
 
 # Plot
 plt.scatter(X[:, 0], X[:, 1], c=labels, cmap='viridis')
-plt.show()
-</pre>
+plt.show()</code></pre>
         </div>
         <p><strong>Key Algorithm:</strong> K-Means Clustering</p>
     </div>
@@ -746,8 +952,8 @@ plt.show()
         <h3>5. Feature Engineering</h3>
         <p><strong>What?</strong> Creating new features or transforming existing ones to improve model performance.</p>
         <div class="code-block">
-<pre>
-# Label Encoding (convert text to numbers)
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code># Label Encoding (convert text to numbers)
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 df["gender_encoded"] = le.fit_transform(df["gender"])
@@ -758,8 +964,7 @@ df_encoded = pd.get_dummies(df, columns=["city"])
 # Feature Scaling
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
-df[["age", "salary"]] = scaler.fit_transform(df[["age", "salary"]])
-</pre>
+df[["age", "salary"]] = scaler.fit_transform(df[["age", "salary"]])</code></pre>
         </div>
     </div>
 
@@ -793,8 +998,8 @@ df[["age", "salary"]] = scaler.fit_transform(df[["age", "salary"]])
     <div class="topic">
         <h3>8. End-to-End ML Project Workflow</h3>
         <div class="code-block">
-<pre>
-1. Import Libraries
+            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy</button>
+<pre><code>1. Import Libraries
    → pandas, numpy, sklearn, matplotlib
 
 2. Load Data
@@ -825,16 +1030,31 @@ df[["age", "salary"]] = scaler.fit_transform(df[["age", "salary"]])
     → GridSearchCV, RandomizedSearchCV
 
 11. Save Model
-    → joblib.dump(model, "model.pkl")
-</pre>
+    → joblib.dump(model, "model.pkl")</code></pre>
         </div>
     </div>
 </section>
 
-<!-- FOOTER -->
+<!-- ==================== FOOTER ==================== -->
 <footer class="footer">
-    <p>FresherHub — Simple Notes for Freshers | Built with ❤️</p>
+    <div class="footer-content">
+        <div class="footer-brand">
+            <span class="brand-icon">FH</span> FresherHub
+        </div>
+        <p>Built with ❤️ for freshers who want to learn Data Science</p>
+        <div class="footer-links">
+            <a href="https://github.com/munishverma" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/munishverma" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:vermamunish92451@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="footer-copy">© 2026 FresherHub. All notes are free to use.</p>
+    </div>
 </footer>
+
+<!-- BACK TO TOP BUTTON -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+</button>
 
 <script src="script.js"></script>
 </body>
