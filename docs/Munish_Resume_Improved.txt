@@ -1,0 +1,58 @@
+MUNISH VERMA
+Aspiring Data Scientist  |  Machine Learning · Analytics · BI
+vermamunish92451@gmail.com  |  linkedin.com/in/munishverma  |  github.com/munishverma  |  Bengaluru, India
+
+PROFESSIONAL SUMMARY
+Data Science graduate (final year) with 6 months of internship experience building and deploying ML models for regression, classification, and predictive analytics. Delivered measurable impact — including a 91% accuracy healthcare prediction system, 87% accuracy churn model, and dashboards surfacing 23% revenue concentration for an e-commerce client. Proficient in Python, SQL, and Power BI, with a strong ability to transform complex datasets into actionable business insights.
+
+SKILLS SUMMARY
+● Languages & Querying: Python (Advanced), SQL
+● Libraries & Frameworks: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
+● Machine Learning: Regression, Classification, Clustering, Model Evaluation, Feature Engineering, Hyperparameter Tuning
+● BI & Visualization: Power BI, Excel (Pivot Tables, VLOOKUP, Charts)
+● Tools & Platforms: Jupyter Notebook, VS Code, Git, GitHub, Google Colab
+● Big Data: PySpark
+● Generative AI: Prompt Engineering, LLM-based Applications
+
+INTERNSHIP EXPERIENCE
+Data Science Intern  —  PySpyder (analytics & ML solutions startup), Bengaluru  |  Jan 2026 – Jun 2026
+● Designed, trained, and deployed 5+ ML models for real-world business problems including regression, classification, and predictive analytics using Python and Scikit-learn.
+● Performed end-to-end data wrangling and preprocessing on 20K+ record datasets using Pandas and NumPy, improving model input quality and reducing training time by 15%.
+● Generated actionable visualizations and reports using Matplotlib and Seaborn, presenting analytical findings to cross-functional stakeholders for data-driven decision-making.
+
+Python Intern  —  Future Finders (ed-tech / software services), Mohali  |  Jun 2025 – Jul 2025
+● Developed and optimized Python scripts for automated data collection and processing, reducing manual effort by 40%.
+● Applied OOP principles, data structures, and file handling techniques to build reusable modules for internal workflows.
+
+PROJECTS
+AI-Powered Healthcare Management System  (Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn)
+● Built an ML-powered predictive system analyzing 12,000+ patient records to forecast readmission risk and treatment outcomes using Random Forest and Gradient Boosting classifiers.
+● Engineered features from diagnosis codes, demographics, and treatment history, achieving 91% accuracy in predicting high-risk patients.
+● Visualized disease prevalence, demographic trends, and key risk factors through interactive dashboards, enabling data-driven healthcare decision-making.
+GitHub: github.com/munishverma/ai-healthcare-management
+
+E-Commerce Sales Analysis  (Python, SQL, Power BI)
+● Performed end-to-end EDA on 50,000+ transaction records to identify top-performing product categories and seasonal sales trends.
+● Built interactive Power BI dashboards visualizing revenue, profit margins, and customer buying behavior across multiple regions.
+● Delivered insights highlighting 23% revenue concentration in top 3 categories, enabling targeted marketing recommendations.
+GitHub: github.com/munishverma/ecommerce-sales-analysis
+
+Customer Churn Prediction  (Python, Scikit-learn, Logistic Regression, Random Forest)
+● Developed a binary classification model to predict customer churn with 87% accuracy using Logistic Regression and Random Forest.
+● Handled class imbalance using SMOTE and tuned hyperparameters with GridSearchCV, reducing false negatives by 18%.
+GitHub: github.com/munishverma/customer-churn-prediction
+
+EDUCATION
+B.Tech, CS / Data Science  —  CGPA: 7.5  —  Sardar Beant Singh State University  |  2022 – 2026
+Class XII (CBSE)  —  92%  —  DAV High School  |  2021 – 2022
+Class X (CBSE)  —  94%  —  Ananda Marga High School  |  2019 – 2020
+
+CERTIFICATIONS
+● Python for Data Science — NPTEL / Coursera  |  2023
+● Machine Learning Fundamentals — Scikit-learn & Supervised Learning  |  2024
+● Power BI Data Analyst — Microsoft Learn / Udemy  |  2024
+● SQL for Data Analysis — HackerRank / Mode Analytics  |  2023
+
+ADDITIONAL INFORMATION
+● Languages: English (Professional), Hindi (Native)
+● Availability: Immediate Joiner, Open to Full-time Roles
